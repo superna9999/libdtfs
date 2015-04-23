@@ -12,4 +12,4 @@ libdtfs.a: libdtfs.o
 dtfs_tree: libdtfs.a dtfs_tree.o
 
 clean:
-	-rm libdtfs.a dtfs_tree.o libdtfs.o
+	-rm dtfs_tree libdtfs.a dtfs_tree.o libdtfs.o
